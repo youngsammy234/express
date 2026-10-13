@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run up && node index.js",
+    "start": "npm run up && node src/index.js",
     "dev": " npm run up && nodemon src/index.js",
     "up": "npx sequelize-cli db:migrate"
   },
